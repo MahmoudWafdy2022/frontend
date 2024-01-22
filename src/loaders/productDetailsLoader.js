@@ -1,8 +1,8 @@
 import axios from "axios";
 
 export default async function productDetailsLoader({ params }) {
-  const url1 = `http://localhost:3001/products/${params.id}`;
-  const url2 = `http://localhost:3001/products/seller/product/${params.id}`;
+  const url1 = `https://backend-production-9647.up.railway.app/products/${params.id}`;
+  const url2 = `https://backend-production-9647.up.railway.app/seller/product/${params.id}`;
 
   try {
     // First URL

@@ -20,7 +20,7 @@ export default function ProductList() {
   const createProductHandler = async () => {
     if (window.confirm("Are you sure you want to create a new product?")) {
       try {
-        const res = await axios.post("http://localhost:3001/products", null, {
+        const res = await axios.post("https://backend-production-9647.up.railway.app/products", null, {
           headers: headers,
         });
         console.log(res);
@@ -34,7 +34,7 @@ export default function ProductList() {
     if (window.confirm("Are you sure you want to delete this product?")) {
       try {
         // Use the product ID to construct the URL
-        const url = `http://localhost:3001/products/${id}`;
+        const url = `https://backend-production-9647.up.railway.app/products/${id}`;
 
         // Send the DELETE request
         const res = await axios.delete(url, { headers });

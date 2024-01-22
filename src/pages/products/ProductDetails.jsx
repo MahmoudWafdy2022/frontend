@@ -67,7 +67,7 @@ export default function VanDetails() {
 
     try {
       const res = await axios.post(
-        `http://localhost:3001/products/${id}/reviews`,
+        `https://backend-production-9647.up.railway.app/products/${id}/reviews`,
         {
           rating,
           comment: e.target.feedback.value,
@@ -109,7 +109,7 @@ export default function VanDetails() {
                 <img
                   src={
                     product.image.includes("/uploads")
-                      ? `http://localhost:3001${product.image}`
+                      ? `https://backend-production-9647.up.railway.app${product.image}`
                       : product.image
                   }
                   alt={product.name}

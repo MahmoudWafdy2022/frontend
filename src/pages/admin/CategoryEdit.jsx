@@ -47,7 +47,7 @@ export default function CategoryEdit() {
       }
 
       const res = await axios.put(
-        `http://localhost:3001/categories/${id}`,
+        `hhttps://backend-production-9647.up.railway.app/categories/${id}`,
         transformedValues,
         {
           headers: headers,

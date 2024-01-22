@@ -159,7 +159,7 @@ export default function ProductEdit() {
 
     try {
       await axios.put(
-        `http://localhost:3001/products/${id}`,
+        `https://backend-production-9647.up.railway.app/products/${id}`,
         transformedValues,
         {
           headers: headers,

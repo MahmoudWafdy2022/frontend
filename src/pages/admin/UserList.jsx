@@ -24,7 +24,7 @@ export default function UserList() {
     if (window.confirm("Are you sure you want to delete this product?")) {
       try {
         // Use the product ID to construct the URL
-        const url = `http://localhost:3001/users/${id}`;
+        const url = `https://backend-production-9647.up.railway.app/users/${id}`;
 
         // Send the DELETE request
         const res = await axios.delete(url, { headers });

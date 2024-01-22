@@ -6,7 +6,7 @@ export default async function loginAction({ request }) {
   const password = formData.get("password");
   const user = { email, password };
   try {
-    const res = await axios.post("http://localhost:3001/users/login", user);
+    const res = await axios.post("https://backend-production-9647.up.railway.app/users/login", user);
     console.log(res);
     const { name, token } = res.data;
     localStorage.setItem("userInfo", JSON.stringify({ email, name, token }));

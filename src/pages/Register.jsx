@@ -53,7 +53,7 @@ function Register() {
       values.lastname =
         values.lastname.charAt(0).toUpperCase() + values.lastname.slice(1);
 
-      await axios.post("http://localhost:3001/users/register", values);
+      await axios.post("https://backend-production-9647.up.railway.app/users/register", values);
       toast.success("Please check your inbox");
       return navigate("/login");
     } catch (err) {

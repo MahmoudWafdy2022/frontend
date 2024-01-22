@@ -142,7 +142,7 @@ export default function ProductPost() {
       transformedValues.price = (values.price - 0.01).toFixed(2);
       setIsLoading(true);
       const res = await axios.post(
-        "http://localhost:3001/products/seller",
+        "https://backend-production-9647.up.railway.app/products/seller",
         transformedValues,
         {
           headers: headers,

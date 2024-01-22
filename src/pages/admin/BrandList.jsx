@@ -25,7 +25,7 @@ export default function BrandList() {
       try {
         const defaultBrandName = "Sample Brand";
         const response = await axios.post(
-          "http://localhost:3001/brands",
+          "https://backend-production-9647.up.railway.app/brands",
           { name: defaultBrandName },
           { headers }
         );
@@ -41,7 +41,7 @@ export default function BrandList() {
   const deleteBrandHandler = async (id) => {
     if (window.confirm("Are you sure you want to delete this brand?")) {
       try {
-        const url = `http://localhost:3001/brands/${id}`;
+        const url = `https://backend-production-9647.up.railway.app/brands/${id}`;
         await axios.delete(url, { headers });
         refetch();
       } catch (err) {

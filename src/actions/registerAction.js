@@ -7,7 +7,7 @@ export default async function registerAction({ request }) {
   const password = formData.get("password");
   const user = { email, name, password };
   try {
-    await axios.post("http://localhost:3001/users/register", user);
+    await axios.post("https://backend-production-9647.up.railway.app/register", user);
     return redirect("/login");
   } catch (err) {
     console.log(err);

@@ -15,7 +15,7 @@ export default async function productsLoader({ params, request }) {
     // category = category ? category[0].toUpperCase() + category.slice(1) : "";
 
     const limit = 6; // Set the same limit as in the backend
-    const baseURL = `http://localhost:3001/products?pageNumber=${pageNumber}&limit=${limit}`;
+    const baseURL = `https://backend-production-9647.up.railway.app/products?pageNumber=${pageNumber}&limit=${limit}`;
     const queryParams = [];
     console.log(category);
     if (keyword) queryParams.push(`keyword=${encodeURIComponent(keyword)}`);

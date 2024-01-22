@@ -24,7 +24,7 @@ export default function CategoryList() {
       try {
         const defaultBrandName = "Sample Category";
         const response = await axios.post(
-          "http://localhost:3001/categories",
+          "https://backend-production-9647.up.railway.app/categories",
           { name: defaultBrandName },
           { headers }
         );
@@ -40,7 +40,7 @@ export default function CategoryList() {
   const deleteCategoryHandler = async (id) => {
     if (window.confirm("Are you sure you want to delete this category?")) {
       try {
-        const url = `http://localhost:3001/categories/${id}`;
+        const url = `https://backend-production-9647.up.railway.app/categories/${id}`;
         await axios.delete(url, { headers });
         refetch();
       } catch (err) {

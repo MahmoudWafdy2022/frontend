@@ -43,7 +43,7 @@ export default function ResetPassword() {
       setIsLoading(true);
       // /users/reset-password/:id/:token
       const response = await fetch(
-        `http://localhost:3001/users/reset-password/${userId}/${token}`,
+        `https://backend-production-9647.up.railway.app/users/reset-password/${userId}/${token}`,
         {
           method: "POST",
           headers: {

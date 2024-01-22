@@ -22,7 +22,7 @@ export default function PendingProduct() {
       try {
         console.log(p);
         // Use the product ID to construct the URL
-        const url = `http://localhost:3001/products/seller/${p._id}`;
+        const url = `https://backend-production-9647.up.railway.app/products/seller/${p._id}`;
 
         // Send the DELETE request
         const res = await axios.delete(url, { headers });
@@ -40,14 +40,14 @@ export default function PendingProduct() {
     if (window.confirm("Are you sure you want to accept this product?")) {
       try {
         // Use the product ID to construct the URL
-        const url = `http://localhost:3001/products`;
+        const url = `https://backend-production-9647.up.railway.app/products`;
 
         // Send the DELETE request
         const res = await axios.post(url, p, { headers });
 
         console.log(res);
 
-        const url2 = `http://localhost:3001/products/seller/${p._id}`;
+        const url2 = `hhttps://backend-production-9647.up.railway.app/products/seller/${p._id}`;
 
         // Send the DELETE request
         const res2 = await axios.delete(url2, { headers });

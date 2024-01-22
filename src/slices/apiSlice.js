@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export const apiSlice = createApi({
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:3001",
+    baseUrl: "https://backend-production-9647.up.railway.app",
     prepareHeaders: (headers, { getState, endpoint }) => {
       // Add your logic to get the user token from the Redux state
       // Replace 'user.token.access' with the correct path to your token

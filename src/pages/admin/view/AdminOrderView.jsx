@@ -60,7 +60,7 @@ export default function AdminOrderView() {
     };
     try {
       const res = await axios.put(
-        `http://localhost:3001/orders/${id}/deliver`,
+        `https://backend-production-9647.up.railway.app/orders/${id}/deliver`,
         null,
         {
           headers: headers,

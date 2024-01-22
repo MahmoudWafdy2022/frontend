@@ -47,7 +47,7 @@ export default function BrandEdit() {
       }
 
       const res = await axios.put(
-        `http://localhost:3001/brands/${id}`,
+        `https://backend-production-9647.up.railway.app/brands/${id}`,
         transformedValues,
         {
           headers: headers,

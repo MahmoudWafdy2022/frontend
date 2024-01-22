@@ -19,7 +19,7 @@ export default function OrderList() {
     };
     async function order() {
       console.log(headers);
-      const res = await axios.get(`http://localhost:3001/orders/${id}`, {
+      const res = await axios.get(`https://backend-production-9647.up.railway.app/orders/${id}`, {
         headers: headers,
       });
       const order = res.data.data;

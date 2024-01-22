@@ -3,7 +3,7 @@ export const orderApiSlice = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
     createOrder: builder.mutation({
       query: (order, token) => ({
-        url: "http://localhost:3001/orders",
+        url: "hhttps://backend-production-9647.up.railway.app/orders",
         method: "POST",
         body: { ...order },
         headers: {
@@ -14,7 +14,7 @@ export const orderApiSlice = apiSlice.injectEndpoints({
     }),
     getOrderDetails: builder.query({
       query: (id, token) => ({
-        url: `http://localhost:3001/orders/${id}`,
+        url: `https://backend-production-9647.up.railway.app/orders/${id}`,
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -24,7 +24,7 @@ export const orderApiSlice = apiSlice.injectEndpoints({
     }),
     payOrder: builder.mutation({
       query: ({ id, details }) => ({
-        url: `http://localhost:3001/orders/${id}/pay`,
+        url: `https://backend-production-9647.up.railway.app/orders/${id}/pay`,
         method: "POST",
         body: details,
         headers: {
@@ -34,31 +34,31 @@ export const orderApiSlice = apiSlice.injectEndpoints({
     }),
     getPaypalClientId: builder.query({
       query: () => ({
-        url: "http://localhost:3001/config/paypal",
+        url: "https://backend-production-9647.up.railway.app/config/paypal",
       }),
       keepUnusedDataFor: 5,
     }),
     getOrders: builder.query({
       query: () => ({
-        url: "http://localhost:3001/orders",
+        url: "https://backend-production-9647.up.railway.app/orders",
       }),
       keepUnusedDataFor: 5,
     }),
     getMyOrders: builder.query({
       query: () => ({
-        url: "http://localhost:3001/orders/myorders",
+        url: "https://backend-production-9647.up.railway.app/orders/myorders",
       }),
       keepUnusedDataFor: 5,
     }),
     getMyData: builder.query({
       query: () => ({
-        url: "http://localhost:3001/orders/mydata",
+        url: "https://backend-production-9647.up.railway.app/orders/mydata",
       }),
       keepUnusedDataFor: 5,
     }),
     deliverOrder: builder.mutation({
       query: (id, token) => ({
-        url: `http://localhost:3001/orders/${id}/deliver`,
+        url: `https://backend-production-9647.up.railway.app/orders/${id}/deliver`,
         method: "PUT",
         headers: {
           Authorization: `Bearer ${token}`,
@@ -67,7 +67,7 @@ export const orderApiSlice = apiSlice.injectEndpoints({
     }),
     getSellerProfit: builder.query({
       query: (id, token) => ({
-        url: `http://localhost:3001/seller-profits/${id}`,
+        url: `https://backend-production-9647.up.railway.app/seller-profits/${id}`,
         headers: { Authorization: `Bearer ${token}` },
       }),
       keepUnusedDataFor: 5,

@@ -19,7 +19,7 @@ export default function ForgetPassword() {
     try {
       setIsLoading(true);
       const response = await fetch(
-        "http://localhost:3001/users/reset-password-link",
+        "https://backend-production-9647.up.railway.app/users/reset-password-link",
         {
           method: "POST",
           headers: {
