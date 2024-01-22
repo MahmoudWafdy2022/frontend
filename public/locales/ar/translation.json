@@ -1,0 +1,178 @@
+{
+  "homepage": {
+    "create_an_account": "سجل لأول مرة",
+    "sign_in": "تسجيل الدخول",
+    "hero": "افضل موقع الكترونيات علي الاطلاق",
+    "hero_details": "هذه السنة، ستجد افضل منتجاتنا الالكترونية معك لتسد احتياجاتك في هذا العالم القاصي الذي لا يهتم بموتك أو حياتك",
+    "cart": "العربة",
+    "search": "ابحث",
+    "search_a_product": "ابحث عن منتج",
+    "shop": "تسوق",
+    "shop_now": "تسوق الآن",
+    "new_releases": "احدث الاضافات",
+    "shipping": "الشحن",
+    "payment": "الدفع",
+    "profile": "الصفحة الشخصية",
+    "logout": "تسجيل خروج",
+    "placeOrder": "تأكيد الطلب",
+    "laptop": "لاب توب",
+    "Latest_Products": "احدث المنتجات",
+    "rights": "كل الحقوق محفوظة",
+    "about": "عـنا",
+    "contact": "تواصـل معنا",
+    "brands": "اشهر البراندات",
+    "highest_rating": "الاعلي تقييماً",
+    "lowest_price": "الاقل سعراً"
+  },
+  "register": {
+    "title": "سجل حساب جديد",
+    "details": "ادخل التفاصيل التالية للتسجيل",
+    "first_Name": "الاسم الاول",
+    "last_Name": "اسم العائلة",
+    "email": "البريد الالكتروني",
+    "password": "كلمة المرور",
+    "role": "اختر نوع الحساب",
+    "buyer": "مشتري",
+    "seller": "بائع",
+    "register": "سجل",
+    "already_have_an_account": "بالفعل لديك حساب",
+    "sign_in": "سجل الدخول الان"
+  },
+  "sign_in": {
+    "title": "سجل الدخول",
+    "details": "اهلاً بعودتك",
+    "email": "البريد الالكتروني",
+    "password": "كلمة المرور",
+    "log_in": "سجل الدخول",
+    "dont_have_an_account": "لا تملك حساب",
+    "sign_up": "سجل حساب جديد",
+    "forget_password": "نسيت كلمة المرور"
+  },
+  "favorutes": {
+    "empty": "لا يوجد عناصر مفضلة",
+    "favorite": "العناصر المفضلة"
+  },
+  "cart": {
+    "empty": "العربة فارغة",
+    "items": "المنتجات المضافة",
+    "details": "اضـف شيئا لجعلي فخوراً  بك"
+  },
+  "products": {
+    "add_to_cart": "اضف إلي العربة",
+    "pending": "تحت الانتظار",
+    "accepted": "تمت الموافقة عليه",
+    "new": "جديد"
+  },
+  "error_component": {
+    "oops": "خطأ",
+    "reconnect": "من فضلك اعد الاتصال بالانترنت",
+    "go_home": "الرجوع للرئيسية",
+    "page_not_exist": "عذراً هذه الصفحة غير موجودة"
+  },
+  "profile": {
+    "first_name": "الاسم الاول",
+    "last_name": "اسم العائلة",
+    "password": "كلمة المرور",
+    "confirm_password": "تأكيد كلمة المرور",
+    "current_address": "العنوان الحالي",
+    "email": "البريد الالكتروني",
+    "city": "المدينة",
+    "country": "الدولة",
+    "edit_information": "تعديل المعلومات",
+    "save_information": "حفظ المعلومات",
+    "cancel": "الغاء",
+    "about": "معلوماتك الشخصية"
+  },
+  "order_history": {
+    "order": "تاريخ الطلبات",
+    "paid_at": "تم دفعه في",
+    "created_at": "تم انشاءه في",
+    "delivered": "هل تم توصيله؟",
+    "paid": "هل تم دفه؟",
+    "order_ID": "رقم الطلب"
+  },
+  "order": {
+    "subtotal": "اسعار البضائع",
+    "shipping": "سعر الشحن",
+    "tax": "سعر الضرائب",
+    "total": "السعر الاجمالي",
+    "USD": "دولار",
+    "vat": "شامل الضرائب",
+    "checkout": "الدفع",
+    "shipping_address": "عنوان الشحن",
+    "city": "المدينة",
+    "country": "الدولة",
+    "address": "العنوان",
+    "go_to_payment": "الذهاب للدفع",
+    "postal_code": "الرمز البريدي",
+    "payment": "الدفع",
+    "check_out_with_payPal": "الدفع بـ Paypal"
+  },
+  "categories": {
+    "categories": "الفئات",
+    "Laptops": "لاب توب",
+    "TV & Video": "شاشات تليفزيونات",
+    "Headphones": "سماعات اذن",
+    "Gaming Accessories": "اكسسوارات العاب",
+    "Mobiles & Tablets": "الهواتف والتابلت",
+    "Smartwatches": "ساعات ذكية"
+  },
+  "reset_password": {
+    "forget": "نسيت كلمة المرور",
+    "reset": "اعد كتابة كلمة السر",
+    "send": "ارسل",
+    "fill": "املئ الاستمارة لإعادة الضبط",
+    "fill2": "اكتب كلمة المرور الجديدة",
+    "email": "البريد الالكتروني",
+    "enter": "ادخل البريد الاكلتروني",
+    "enter2": "ادخل كلمة السر الجديدة",
+    "not_registered": "لا تملك حساب",
+    "register": "سجل حساب جديد الآن"
+  },
+  "seller": {
+    "paid_orders": "الطلبات المدفوعة",
+    "unpaid_orders": "الطلبات غير المدفوعة",
+    "pending_products": "المنتجات قيد الانتظار",
+    "available_products": "المنتجات الموافق عليها"
+  },
+  "chart": {
+    "products_in_stock": "المنتجات الخاصة بك في المخزن",
+    "sales_this_week": "المبيعات هذا الاسبوع"
+  },
+  "dashboard": {
+    "dashboard": "لوحة القيادة",
+    "product_list": "قائمة المنتجات",
+    "all_items": "معرض المنتجات",
+    "setting": "الاعدادات",
+    "log_out": "تسجيل الخروج"
+  },
+  "productlist_tables": {
+    "STATUS": "الحالة",
+    "PRICE": "السعر",
+    "CATEGORY": "الفئة",
+    "BRAND": "الماركة",
+    "PRODUCT_NAME": "اسم المنتج",
+    "ID": "رقم التعريف",
+    "Add_Product": "اضف منتجات"
+  },
+  "dropdown": {
+    "product_list": "قائمة المنتجات",
+    "profile": "الصفحة الشخصية",
+    "logout": "تسجيل خروج"
+  },
+  "filter": {
+    "home": "الرئيسية",
+    "products": "المنتجات",
+    "sort": "الفرز",
+    "most_popular": "الاشهر",
+    "best_rating": "الاعلي تقييماً",
+    "newest": "الاحدث",
+    "price_low_to_high": "السعر الاقل للاعلي",
+    "price_high_to_low": "السعر الاعلي للاقل",
+    "new_arrivals": "فلتر صنفك",
+    "brand": "الماركة",
+    "next": "التالي",
+    "previous": "السابق",
+    "clear": "امسح"
+  }
+}
